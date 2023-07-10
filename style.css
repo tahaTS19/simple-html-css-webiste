@@ -111,7 +111,10 @@ nav img {
         right: -200px;
         text-align: left;
         z-index: 2;
-        /* transition: 1s; */
+        transition: 1s;
+    }
+    .nav-links ul li:hover::after {
+        width: 0%;
     }
     nav i {
         display: block;

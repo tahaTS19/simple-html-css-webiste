@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'https://vermillion-phoenix-e8cc86.netlify.app/';
+$email_from = 'info@vermillion-phoenix-e8cc86.netlify.app';
 
 $email_subject = 'New Form Submission';
 

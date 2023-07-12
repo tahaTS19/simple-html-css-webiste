@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = '';
+$email_from = 'https://vermillion-phoenix-e8cc86.netlify.app/';
 
 $email_subject = 'New Form Submission';
 
@@ -13,7 +13,7 @@ $email_body = "User Name: $name.\n"
                 "Subject: $subject.\n"
                 "User Message: $message.\n";
 
-$to = 'walterwhite@heisenberg.com';
+$to = 'tahasalmantsk7@gmail.com';
 
 $headers = "From: $email_from \r\n";
 
@@ -22,3 +22,4 @@ $headers .= "Reply-To: $visitor_email \r\n";
 mail($to, $email_subject, $email_body, $headers);
 
 header("Location: contact.html");
+?>
